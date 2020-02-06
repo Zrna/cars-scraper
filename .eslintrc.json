@@ -1,0 +1,59 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-var": "error",
+        "no-multi-spaces": "error",
+        "no-trailing-spaces": "error",
+        "no-whitespace-before-property": "error",
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "no-mixed-spaces-and-tabs": "error",
+        "rest-spread-spacing": [
+            "error",
+            "never"
+        ],
+        "prefer-const": "error",
+        "react/prop-types": 0
+    }
+}

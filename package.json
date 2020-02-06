@@ -1,0 +1,16 @@
+{
+  "name": "cars-scraper",
+  "author": "Luka Zrnic",
+  "version": "1.0.0",
+  "description": "Cars scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
